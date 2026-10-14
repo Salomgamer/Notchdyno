@@ -1,0 +1,27 @@
+{
+  "security": {
+    "auth": {
+      "selectedType": "compute-default-credentials"
+    }
+  },
+  "mcpServers": {
+    "notebook": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "git+https://github.com/GoogleCloudPlatform/data-agent-kit-plugin.git",
+        "--mode=notebook"
+      ],
+      "env": {}
+    },
+    "visualization": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "git+https://github.com/GoogleCloudPlatform/data-agent-kit-plugin.git",
+        "--mode=visualization"
+      ],
+      "env": {}
+    }
+  }
+}

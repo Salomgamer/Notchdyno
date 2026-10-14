@@ -1,0 +1,32 @@
+name: NotchIsland
+options:
+  bundleIdPrefix: com.custom
+  deploymentTarget:
+    iOS: "16.0"
+settings:
+  base:
+    PRODUCT_BUNDLE_IDENTIFIER: com.custom.notchisland
+    MARKETING_VERSION: "2.0.0"
+    CURRENT_PROJECT_VERSION: "2"
+    SWIFT_VERSION: "5.0"
+    CODE_SIGN_IDENTITY: ""
+    CODE_SIGNING_REQUIRED: NO
+    CODE_SIGNING_ALLOWED: NO
+targets:
+  NotchIsland:
+    type: application
+    platform: iOS
+    sources:
+      - NotchIsland
+    info:
+      path: NotchIsland/Info.plist
+      properties:
+        CFBundleDisplayName: NotchIsland
+        UILaunchScreen: {}
+        NSMotionUsageDescription: "NotchIsland reads your live step count to display it inside the floating island."
+        NSAppleMusicUsageDescription: "NotchIsland reads your currently playing song to display it in the island."
+        UIBackgroundModes:
+          - audio
+          - location
+          - processing
+        UIApplicationSupportsIndirectInputEvents: true

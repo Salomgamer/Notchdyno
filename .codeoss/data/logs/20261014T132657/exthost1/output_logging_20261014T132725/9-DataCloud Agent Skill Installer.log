@@ -1,0 +1,64 @@
+[2026-10-14T13:27:32.079Z] Activating Agent Skill Installer
+[2026-10-14T13:27:32.088Z] appName: Code OSS for Cloud Shell, ideType: 6
+[2026-10-14T13:27:32.088Z] Profile antigravity-ide is NOT active
+[2026-10-14T13:27:32.088Z] Profile antigravity is NOT active
+[2026-10-14T13:27:32.088Z] Profile jetski is NOT active
+[2026-10-14T13:27:32.088Z] Profile cursor is NOT active
+[2026-10-14T13:27:32.088Z] Profile copilot is NOT active
+[2026-10-14T13:27:32.088Z] Profile gemini-code-assist is active
+[2026-10-14T13:27:32.089Z] appName: Code OSS for Cloud Shell, ideType: 6
+[2026-10-14T13:27:32.089Z] Profile antigravity-ide is NOT active
+[2026-10-14T13:27:32.089Z] Profile antigravity is NOT active
+[2026-10-14T13:27:32.089Z] Profile jetski is NOT active
+[2026-10-14T13:27:32.089Z] Profile cursor is NOT active
+[2026-10-14T13:27:32.089Z] Profile copilot is NOT active
+[2026-10-14T13:27:32.089Z] Profile gemini-code-assist is active
+[2026-10-14T13:27:37.521Z] Checking skills for Gemini Code Assist in /home/crownsy602/.gemini/skills. Force=false
+[2026-10-14T13:27:37.522Z] No previous manifest found or it was invalid.
+[2026-10-14T13:27:37.523Z] Ensured destination directory exists: /home/crownsy602/.gemini/skills
+[2026-10-14T13:27:37.527Z] Ensured destination directory exists: /home/crownsy602/.gemini/skills/accidental-data-loss-prevention
+[2026-10-14T13:27:37.527Z] Ensured destination directory exists: /home/crownsy602/.gemini/skills/bigquery-data-transfer-service
+[2026-10-14T13:27:37.527Z] Ensured destination directory exists: /home/crownsy602/.gemini/skills/bigquery-sql
+[2026-10-14T13:27:37.527Z] Ensured destination directory exists: /home/crownsy602/.gemini/skills/building-data-apps
+[2026-10-14T13:27:37.527Z] Ensured destination directory exists: /home/crownsy602/.gemini/skills/data-autocleaning
+[2026-10-14T13:27:37.528Z] Ensured destination directory exists: /home/crownsy602/.gemini/skills/dataform-bigquery
+[2026-10-14T13:27:37.528Z] Ensured destination directory exists: /home/crownsy602/.gemini/skills/dbt-bigquery
+[2026-10-14T13:27:37.528Z] Ensured destination directory exists: /home/crownsy602/.gemini/skills/discovering-gcp-data-assets
+[2026-10-14T13:27:37.528Z] Ensured destination directory exists: /home/crownsy602/.gemini/skills/enforcing-resource-attribution
+[2026-10-14T13:27:37.528Z] Ensured destination directory exists: /home/crownsy602/.gemini/skills/gcp-data-pipelines
+[2026-10-14T13:27:37.528Z] Ensured destination directory exists: /home/crownsy602/.gemini/skills/gcp-dataflow
+[2026-10-14T13:27:37.528Z] Ensured destination directory exists: /home/crownsy602/.gemini/skills/gcp-pipeline-orchestration
+[2026-10-14T13:27:37.528Z] Ensured destination directory exists: /home/crownsy602/.gemini/skills/gcp-pipeline-resource-provisioning
+[2026-10-14T13:27:37.528Z] Ensured destination directory exists: /home/crownsy602/.gemini/skills/gcp-spark
+[2026-10-14T13:27:37.528Z] Ensured destination directory exists: /home/crownsy602/.gemini/skills/gcp-spark-troubleshooting
+[2026-10-14T13:27:37.528Z] Ensured destination directory exists: /home/crownsy602/.gemini/skills/google-cloud-auth-verification
+[2026-10-14T13:27:37.528Z] Ensured destination directory exists: /home/crownsy602/.gemini/skills/managing-python-dependencies
+[2026-10-14T13:27:37.528Z] Ensured destination directory exists: /home/crownsy602/.gemini/skills/ml-best-practices
+[2026-10-14T13:27:37.529Z] Ensured destination directory exists: /home/crownsy602/.gemini/skills/notebook-guidance
+[2026-10-14T13:27:37.529Z] Ensured destination directory exists: /home/crownsy602/.gemini/skills/schema-mapping
+[2026-10-14T13:27:37.529Z] Ensured destination directory exists: /home/crownsy602/.gemini/skills/skill-repair
+[2026-10-14T13:27:37.542Z] Copied skill accidental-data-loss-prevention to /home/crownsy602/.gemini/skills/accidental-data-loss-prevention
+[2026-10-14T13:27:37.543Z] Copied skill dataform-bigquery to /home/crownsy602/.gemini/skills/dataform-bigquery
+[2026-10-14T13:27:37.543Z] Copied skill enforcing-resource-attribution to /home/crownsy602/.gemini/skills/enforcing-resource-attribution
+[2026-10-14T13:27:37.543Z] Copied skill gcp-data-pipelines to /home/crownsy602/.gemini/skills/gcp-data-pipelines
+[2026-10-14T13:27:37.543Z] Copied skill dbt-bigquery to /home/crownsy602/.gemini/skills/dbt-bigquery
+[2026-10-14T13:27:37.544Z] Copied skill managing-python-dependencies to /home/crownsy602/.gemini/skills/managing-python-dependencies
+[2026-10-14T13:27:37.545Z] Copied skill ml-best-practices to /home/crownsy602/.gemini/skills/ml-best-practices
+[2026-10-14T13:27:37.545Z] Copied skill notebook-guidance to /home/crownsy602/.gemini/skills/notebook-guidance
+[2026-10-14T13:27:37.545Z] Copied skill schema-mapping to /home/crownsy602/.gemini/skills/schema-mapping
+[2026-10-14T13:27:37.545Z] Copied skill skill-repair to /home/crownsy602/.gemini/skills/skill-repair
+[2026-10-14T13:27:37.546Z] Copied skill bigquery-sql to /home/crownsy602/.gemini/skills/bigquery-sql
+[2026-10-14T13:27:37.546Z] Copied skill discovering-gcp-data-assets to /home/crownsy602/.gemini/skills/discovering-gcp-data-assets
+[2026-10-14T13:27:37.549Z] Copied skill google-cloud-auth-verification to /home/crownsy602/.gemini/skills/google-cloud-auth-verification
+[2026-10-14T13:27:37.552Z] Copied skill bigquery-data-transfer-service to /home/crownsy602/.gemini/skills/bigquery-data-transfer-service
+[2026-10-14T13:27:37.552Z] Copied skill data-autocleaning to /home/crownsy602/.gemini/skills/data-autocleaning
+[2026-10-14T13:27:37.553Z] Copied skill gcp-pipeline-resource-provisioning to /home/crownsy602/.gemini/skills/gcp-pipeline-resource-provisioning
+[2026-10-14T13:27:37.555Z] Copied skill gcp-spark to /home/crownsy602/.gemini/skills/gcp-spark
+[2026-10-14T13:27:37.556Z] Copied skill gcp-pipeline-orchestration to /home/crownsy602/.gemini/skills/gcp-pipeline-orchestration
+[2026-10-14T13:27:37.557Z] Copied skill gcp-spark-troubleshooting to /home/crownsy602/.gemini/skills/gcp-spark-troubleshooting
+[2026-10-14T13:27:37.558Z] Copied skill building-data-apps to /home/crownsy602/.gemini/skills/building-data-apps
+[2026-10-14T13:27:37.558Z] Copied skill gcp-dataflow to /home/crownsy602/.gemini/skills/gcp-dataflow
+[2026-10-14T13:27:37.559Z] Finished copying skills to /home/crownsy602/.gemini/skills. Updated 21 skills.
+[2026-10-14T13:27:37.563Z] Installation completed. Manifest updated.
+[2026-10-14T13:27:37.563Z] Syncing telemetry hooks for gemini-code-assist. Telemetry enabled: true
+[2026-10-14T13:27:37.569Z] Hook plugin for gemini-code-assist installed successfully to /home/crownsy602/.gemini/config/plugins/googlecloudtools.datacloud_telemetry

@@ -1,0 +1,40 @@
+2026-10-14 13:28:01.656 [info] Extension host with pid 2031 started
+2026-10-14 13:28:02.216 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-10-14 13:28:02.217 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-10-14 13:28:02.408 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-10-14 13:28:02.512 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-10-14 13:28:02.513 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-10-14 13:28:02.740 [info] Eager extensions activated
+2026-10-14 13:28:02.740 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2026-10-14 13:28:02.740 [info] ExtensionService#_doActivateExtension google.cloud-developer-environments-auth, startup: false, activationEvent: 'onStartupFinished'
+2026-10-14 13:28:02.741 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2026-10-14 13:28:02.741 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onStartupFinished', root cause: googlecloudtools.cloudcode
+2026-10-14 13:28:02.742 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onStartupFinished', root cause: googlecloudtools.cloudcode
+2026-10-14 13:28:02.742 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-10-14 13:28:02.742 [info] ExtensionService#_doActivateExtension google.gemini-cli-vscode-ide-companion, startup: false, activationEvent: 'onStartupFinished'
+2026-10-14 13:28:02.743 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-10-14 13:28:04.529 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2026-10-14 13:28:04.961 [info] ExtensionService#_doActivateExtension googlecloudtools.datacloud, startup: false, activationEvent: 'onStartupFinished', root cause: googlecloudtools.cloudcode
+2026-10-14 13:28:07.147 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-10-14 13:28:07.147 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-10-14 13:28:07.147 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-10-14 13:28:09.008 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2026-10-14 13:28:24.531 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-10-14 13:33:55.984 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2026-10-14 13:37:13.679 [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onDebugInitialConfigurations'
+2026-10-14 13:37:13.680 [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onDebugInitialConfigurations'
+2026-10-14 13:37:13.680 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'onDebugInitialConfigurations'
+2026-10-14 13:37:13.680 [info] ExtensionService#_doActivateExtension KylinIDETeam.js-debug, startup: false, activationEvent: 'onDebugInitialConfigurations'
+2026-10-14 13:37:14.509 [error] Activating extension KylinIDETeam.js-debug failed due to an error:
+2026-10-14 13:37:14.510 [error] Error: command 'extension.js-debug.npmScript' already exists
+    at qS.registerCommand (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:117:40620)
+    at Object.registerCommand (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:265:115501)
+    at Le (/home/crownsy602/.codeoss/extensions/kylinideteam.js-debug-0.1.3-universal/src/extension.js:72:10342)
+    at Y0e (/home/crownsy602/.codeoss/extensions/kylinideteam.js-debug-0.1.3-universal/src/extension.js:160:6261)
+    at xC.kb (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:130:15420)
+    at xC.jb (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:130:15165)
+    at file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:130:13301
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at OS.n (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:117:13433)
+    at OS.m (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:117:13396)
+    at OS.l (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:117:12852)

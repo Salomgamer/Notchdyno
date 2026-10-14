@@ -1,0 +1,29 @@
+2026-10-14 13:27:37.002 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-10-14 13:27:37.002 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-10-14 13:27:37.201 [info] > python -c "import sys;print(sys.executable)"
+2026-10-14 13:27:37.313 [info] > /usr/bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2026-10-14 13:27:38.308 [info] Starting Environment refresh
+2026-10-14 13:27:38.308 [info] Searching for interpreters in posix paths locator
+2026-10-14 13:27:38.319 [info] Searching for pyenv environments
+2026-10-14 13:27:38.319 [info] Searching for conda environments
+2026-10-14 13:27:38.319 [info] Searching for global virtual environments
+2026-10-14 13:27:38.319 [info] Searching for custom virtual environments
+2026-10-14 13:27:38.326 [info] > conda info --json
+2026-10-14 13:27:38.376 [info] pyenv is not installed
+2026-10-14 13:27:38.376 [info] Finished searching for pyenv environments: 66 milliseconds
+2026-10-14 13:27:38.377 [info] Finished searching for custom virtual envs: 65 milliseconds
+2026-10-14 13:27:38.385 [info] Finished searching for global virtual envs: 74 milliseconds
+2026-10-14 13:27:38.394 [info] Python interpreter path: /usr/bin/python
+2026-10-14 13:27:38.394 [info] Found: /bin/python --> /bin/python3.12
+2026-10-14 13:27:38.395 [info] Found: /bin/python3 --> /bin/python3.12
+2026-10-14 13:27:38.396 [info] Found: /bin/python3.12 --> /bin/python3.12
+2026-10-14 13:27:38.407 [info] Found: /usr/bin/python --> /usr/bin/python3.12
+2026-10-14 13:27:38.408 [info] Found: /usr/bin/python3 --> /usr/bin/python3.12
+2026-10-14 13:27:38.408 [info] Found: /usr/bin/python3.12 --> /usr/bin/python3.12
+2026-10-14 13:27:38.447 [info] Finished searching for interpreters in posix paths locator: 133 milliseconds
+2026-10-14 13:27:38.447 [info] > /bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2026-10-14 13:27:38.461 [info] Environments refresh paths discovered (event): 155 milliseconds
+2026-10-14 13:27:38.461 [info] Environments refresh paths discovered: 155 milliseconds
+2026-10-14 13:27:38.505 [info] Environments refresh finished (event): 199 milliseconds
+2026-10-14 13:27:38.509 [info] Environment refresh took 204 milliseconds
+2026-10-14 13:27:41.752 [info] Starting Jedi language server for default.

@@ -1,0 +1,5 @@
+cat << 'EOF' > setup.sh
+mkdir -p NotchIsland/NotchIsland .github/workflows
+echo "Project directories created successfully!"
+EOF
+bash setup.sh
